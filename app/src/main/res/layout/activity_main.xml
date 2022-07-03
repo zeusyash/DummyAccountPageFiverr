@@ -12,13 +12,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="2dp"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/edit"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:src="@drawable/user_ic" />
@@ -31,12 +33,13 @@
             android:background="@color/white"
             android:fontFamily="sans-serif-condensed"
             android:gravity="center"
+            android:textColor="@color/mainblue"
             android:text="Mr User"
             android:textSize="21sp" />
 
         <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:src="@drawable/bell_ic" />
@@ -50,8 +53,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_margin="5dp"
             android:src="@drawable/bar_logo" />
 
@@ -71,7 +74,7 @@
                 android:gravity="center"
                 android:text="HIGHER"
                 android:textColor="@color/mainblue"
-                android:textSize="19sp" />
+                android:textSize="17sp" />
 
             <EditText
                 android:id="@+id/et_amt1"
@@ -83,7 +86,7 @@
                 android:gravity="center"
                 android:text="USD 00.00"
                 android:textColor="@color/black"
-                android:textSize="21sp" />
+                android:textSize="19sp" />
 
             <EditText
                 android:id="@+id/et_desc1"
@@ -100,8 +103,8 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:rotation="180"
@@ -118,8 +121,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_margin="5dp"
             android:src="@drawable/bar_logo" />
 
@@ -139,7 +142,7 @@
                 android:gravity="center"
                 android:text="HIGHER"
                 android:textColor="@color/mainblue"
-                android:textSize="19sp" />
+                android:textSize="17sp" />
 
             <EditText
                 android:id="@+id/et_amt2"
@@ -151,7 +154,7 @@
                 android:gravity="center"
                 android:text="USD 00.00"
                 android:textColor="@color/black"
-                android:textSize="21sp" />
+                android:textSize="19sp" />
 
             <EditText
                 android:id="@+id/et_desc2"
@@ -168,8 +171,8 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:rotation="180"
@@ -186,8 +189,8 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_margin="5dp"
             android:src="@drawable/bar_logo" />
 
@@ -207,7 +210,7 @@
                 android:gravity="center"
                 android:text="HIGHER"
                 android:textColor="@color/mainblue"
-                android:textSize="19sp" />
+                android:textSize="17sp" />
 
             <EditText
                 android:id="@+id/et_amt3"
@@ -219,7 +222,7 @@
                 android:gravity="center"
                 android:text="USD 00.00"
                 android:textColor="@color/black"
-                android:textSize="21sp" />
+                android:textSize="19sp" />
 
             <EditText
                 android:id="@+id/et_desc3"
@@ -236,8 +239,8 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_gravity="center"
             android:layout_margin="10dp"
             android:rotation="180"
@@ -249,7 +252,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
-        android:layout_height="wrap_content"
+        android:layout_height="120dp"
+        android:background="#F8F4F5"
         android:src="@drawable/image_banner" />
 
     <LinearLayout
@@ -269,8 +273,8 @@
             android:padding="5dp">
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/home_48px"
                 app:tint="@color/white" />
 
@@ -278,6 +282,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Accounts"
+                android:textSize="13sp"
                 android:textColor="@color/white" />
 
         </LinearLayout>
@@ -292,14 +297,15 @@
             android:padding="5dp">
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/shopping_bag_48px"
                 app:tint="@color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="13sp"
                 android:text="Products"
                 android:textColor="@color/white" />
 
@@ -315,8 +321,8 @@
             android:padding="5dp">
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:rotation="270"
                 android:src="@drawable/enable_48px"
                 app:tint="@color/white" />
@@ -324,6 +330,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="13sp"
                 android:lines="1"
                 android:text="Transfer"
                 android:textAlignment="center"
@@ -341,14 +348,15 @@
             android:padding="5dp">
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/help_48px"
                 app:tint="@color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="13sp"
                 android:text="Help"
                 android:textColor="@color/white" />
 
@@ -364,14 +372,15 @@
             android:padding="5dp">
 
             <ImageView
-                android:layout_width="35dp"
-                android:layout_height="35dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/more_horiz_48px"
                 app:tint="@color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="13sp"
                 android:text="More"
                 android:textColor="@color/white" />
 
